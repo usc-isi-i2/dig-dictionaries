@@ -1,0 +1,34 @@
+[{
+	"category": ["latina", "latino", "Latin America", "hispanic", "caramel"],
+	"entries": ["Spainish", "Argentinean", "Cuban", "Colombian", "Puerto Rico", "Mexican", "Dominican", "Costa Rican", "Guatemalan", "Honduras", "Nicaraguan", "Panamanian", "Salvadoran", "Bolivian", "Chilean", "Ecuadorean", "Paraguayan", "Peruvian", "Uruguayan", "Venezuelan"]
+}, {
+	"category": ["asian", "asiatic"],
+	"entries": ["Laotian","Surinamer","Filipino","Taiwanese","Thai","Indian", "Pakistani", "Bangladeshi", "Sri Lankan", "Nepalese", "Bhutanese", "Maldivan", "Japanese", "Chines", "North Korean", "South Korean", "Mongolian", "Indonesian", "Malaysian", "Philippines", "Singaporean", "Bruneian", "Timor-Leste", "Burmese", "Thailand", "Laos", "Cambodian", "Vietnamese", "Kazakhstani", "Tajik", "Kyrgyz", "Uzbekistani", "Turkmenistani"]
+}, {
+	"category": ["Middle East"],
+	"entries": ["Bosnian","Turkish","Saudi", "Omani", "Jordanian", "Qatari", "Kuwaiti", "Emiran", "Bahraini", "Armenian", "Azerbaijani", "Georgian", "Yemenite", "Iraqi", "Iranian", "Afghan", "Israeli", "Lebanese", "Palestine", "Turkey", "Cyprus", "Syrian"]
+}, {
+	"category": ["Arabs"],
+	"entries": ["Bosnian","Maltese","Turkish","Egyptian", "Algerian", "Sudanese", "Iraqi", "Moroccan", "Saudi", "Yemenite", "Syrian", "Tunisian", "Somali", "Jordanian", "Emirian", "Libyan", "Palestine", "Lebanese", "Omani", "Kuwaiti", "Mauritian", "Qatari", "Bahraini", "Djibouti", "Comoros"]
+}, {
+	"category": ["African American", "Black American", "Negroid", "Negro", "Black", "chocolate"],
+	"entries": ["Batswana","Mosotho","Sao Tomean","Motswana","Central African","Angolan", "Beninese", "Botswana", "Burkinabe", "Faso", "Burundian", "Cameroonian", "Cape Verdean", "Chadian", "Comoran", "Congolese", "Cote", "Ivoire", "Djibouti", "Equatorial Guinean", "Eritrean", "Ethiopian", "Gabonese", "Gambian", "Ghanaian", "Guinean", "Guinea-Bissauan", "Kenyan", "Lesotho", "Malawian", "Malian", "Mauritanian", "Mauritius", "Mozambican", "Namibian", "Nigerien", "Nigerian", "Rwandan", "Senegalese", "Seychellois", "Sierra Leonean", "Somali", "Motswana","South African", "Sudanese", "Swazi", "Tanzanian", "Togolese", "Ugandan", "Zambian", "Zimbabwean"]
+}, {
+	"category": ["Native Hawaiian", "Pacific Islander"],
+	"entries": ["East Timorese","Papua New Guinean","Fijian", "I-Kiribati", "Marshallese", "Micronesian", "Nauruan", "Palauan", "Samoan", "Solomon Islander", "Tongan", "Tuvaluan", "Ni-Vanuatu"]
+}, {
+	"category": ["Native American", "Alaska Native"],
+	"entries": ["Antiguans", "Barbudans", "Bahamian", "Barbadian", "Belizean", "Canadian", "Coast Rican", "Cuban", "Dominican", "Salvadorean", "Grenadian", "Guatemalan", "Haitian", "Honduran", "Jamaican", "Mexican", "Nicaraguan", "Panamanian", "Trinidadian", "Tobagan", "Tobagonian", "American", "Argentinian", "Argentine", "Bolivian", "Brazilian", "Chilean", "Columbian", "Ecuadorian", "Guyanese", "Paraguayan", "Peruvian", "Surinamese", "Uruguayan", "Venezulean"]
+}, {
+	"category": ["White", "European American", "caucasian"],
+	"entries": ["Monacan","San Marinese","New Zealander","Australian","Andorran","Luxembourger","Liechtensteiner","Moldovan","Icelander","Northern Irish","Dutchwoman","Macedonian","Maltese","Herzegovinian","Netherlander","Danish", "British", "English", "Estonian", "Finnish", "Icelandic", "Irish", "Latvian", "Lithuanian", "Irish", "Norwegian", "Scottish", "Swedish", "Dutchman","British", "British", "Welsh", "Austrian", "Belgian", "French", "German", "Dutch", "Swiss", "Albanian", "Croatian", "Cypriot", "Greek", "Italian", "Portuguese", "Serbian", "Slovenian", "Spanish", "Belarusian", "Bulgarian", "Czech", "Hungarian", "Polish", "Romanian", "Russian", "Slovakian", "Ukrainian"]
+}, {
+	"category": ["african"],
+	"entries": ["Batswana","Mosotho","Liberian","Liberia","Central African","Algerian", "Egyptian", "Ghanaian", "Ivorian", "Libyan", "Moroccan", "Nigerian", "Tunisian", "Ethiopian", "Kenyan", "Somali", "Sudanese", "Tanzanian", "Ugandan", "Angolan", "Botswanan", "Congolese", "Malagasy", "Mozambican", "Namibian", "South African", "Zambian", "Zimbabwean"]
+}, {
+	"category": ["caribbean"],
+	"entries": ["Anguillian", "Aruban", "Bahamian", "Barbadian", "British Virgin Islands", "Caymanian", "Cuban", "Curacao", "Dominica", "Grenedian", "Haitian", "Jamaican", "British Leeward Islands", "Puerto Rican", "Saint Kitts and Nevis", "Saint Lucian", "Saint Vincent and the Grenadines", "Trinidad and Tobago", "Turks","Caicos", " United States Virgin Islands", "British Windward Islands","Kittian and Nevisian"]
+}, {
+	"category": ["Mongoloid", "Mongolian"],
+	"entries": ["North", "Mongol", "Chinese", "Indochinese", "Japanese", "Korean", "Tibetan", "Malay", "Polynesian", "Maori", "Micronesian", "Eskimo", "American"]
+}]
