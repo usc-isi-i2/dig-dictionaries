@@ -4,6 +4,7 @@ import codecs
 # given a query as ethinicity like Arab the function return a unnique set of all the nationality.
 # if query is in multiple categories then the result will be aggregation of all the entries.
 
+
 class Q(object):
     def __init__(self, dictionary):
         self.dictionary = dictionary
