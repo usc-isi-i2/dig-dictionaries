@@ -8,7 +8,7 @@ def getWordList(data):
     for ele in data:
         for cat,ent in ele.iteritems():
             for nat in ent:
-                _set.add(nat.encode("utf8").strip())
+                _set.add(nat.encode("utf8").strip().lower())
     return list(_set)
 
 #this function reads all the nationalities and returns a set.s
