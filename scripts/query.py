@@ -12,12 +12,14 @@ class Q(object):
     def get_entries_from_category(self, ethinicity):
         _set = set()
         for ele in self.dictionary:
-            if ethinicity.upper() in [ e.upper() for e in ele["category"]]:
+            if ethinicity.upper() in [e.upper() for e in ele["category"]]:
                 for nats in ele["entries"]:
-                    _set.add(nats.encode("utf8"))
+                    _set.add(nats.lower().encode("utf8"))
+                for c in ele["category"]:
+                    _set.add(c.lower().encode('utf8'))
         return list(_set)
 
 if __name__ == "__main__":
     dictionary = json.load(codecs.open('../ethnicities/ethnicity-nationality.json', 'r', 'utf-8'))
     q = Q(dictionary)
-    print q.get_entries_from_category('arabs')
+    print q.get_entries_from_category('LATINA')
