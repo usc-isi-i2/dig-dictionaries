@@ -2,6 +2,7 @@ __author__ = 'majid'
 import json
 from optparse import OptionParser
 
+# usage: python create_curated_cities_dict.py ALL_CITIES BACKPAGE_CITY2COUNTRY STOP_CITIES CURATED_OUT
 if __name__ == '__main__':
     parser = OptionParser()
     parser.add_option("-l", "--landmarkRules", action="store", type="string", dest="landmarkRules")
