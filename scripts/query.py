@@ -19,7 +19,48 @@ class Q(object):
                     _set.add(c.lower().encode('utf8'))
         return list(_set)
 
+
+def expand_dictionary(d):
+    out = dict()
+    for o in d:
+        s = set()
+        c = o['category']
+
+        for cc in c:
+            s.add(cc.lower())
+        e = o['entries']
+        for ee in e:
+            s.add(ee.lower())
+        for x in c:
+            out[x.lower()] = ' '.join(list(s))
+        for y in e:
+            if y.lower() in out:
+                out[y.lower()] = out[y.lower()] + ' ' + y.lower()
+            else:
+                out[y.lower()] = y.lower()
+    return out
+
 if __name__ == "__main__":
-    dictionary = json.load(codecs.open('../ethnicities/ethnicity-nationality.json', 'r', 'utf-8'))
-    q = Q(dictionary)
-    print q.get_entries_from_category('LATINA')
+    # dictionary = json.load(codecs.open('../ethnicities/ethnicity-nationality.json', 'r', 'utf-8'))
+    # q = Q(dictionary)
+    # print q.get_entries_from_category('LATINA')
+
+
+
+
+    hair_color_file = '/Users/amandeep/Github/dig-dictionaries/haircolor/haircolor-reference-customized.json'
+    eye_color_file = '/Users/amandeep/Github/dig-dictionaries/eyecolor/eyecolor-reference-customized.json'
+    ethnicity_file = '../ethnicities/ethnicity-nationality-reference.json'
+
+    out_file = codecs.open('/Users/amandeep/Github/dig-dictionaries/expanded-dictionaries.json', 'w', 'utf-8')
+
+    haircolor_d = json.load(codecs.open(hair_color_file, 'r', 'utf-8'))
+    eyecolor_d = json.load(codecs.open(eye_color_file, 'r', 'utf-8'))
+    ethnicity_d = json.load(codecs.open(ethnicity_file, 'r', 'utf-8'))
+
+    result = dict()
+    result['ethnicity'] = expand_dictionary(ethnicity_d)
+    result['hair_color'] = expand_dictionary(haircolor_d)
+    result['eye_color'] = expand_dictionary(eyecolor_d)
+
+    out_file.write(json.dumps(result))

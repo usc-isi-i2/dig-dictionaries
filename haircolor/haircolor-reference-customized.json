@@ -45,7 +45,6 @@
     ],
     "entries": [
       "flaxen",
-      "blond",
       "blonde",
       "blondy",
       "blonds",
@@ -83,11 +82,11 @@
   },
   {
     "category": [
-      "gray"
+      "gray",
+      "grey"
     ],
     "entries": [
-      "platinum",
-      "grey"
+      "platinum"
     ]
   }
 ]

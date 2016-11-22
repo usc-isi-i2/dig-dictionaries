@@ -4,7 +4,6 @@
       "amber"
     ],
     "entries": [
-      "amber",
       "ambr"
     ]
   },
@@ -24,16 +23,15 @@
       "brown"
     ],
     "entries": [
-      "brown"
     ]
   },
   {
     "category": [
-      "gray"
-    ],
-    "entries": [
       "gray",
       "grey"
+    ],
+    "entries": [
+
     ]
   },
   {
@@ -41,7 +39,6 @@
       "green"
     ],
     "entries": [
-      "green",
       "gree"
     ]
   },
@@ -50,7 +47,6 @@
       "hazel"
     ],
     "entries": [
-      "hazel",
       "hazle",
       "hezel",
       "hazell",
@@ -72,7 +68,6 @@
       "violet"
     ],
     "entries": [
-      "violet"
     ]
   }
 ]
